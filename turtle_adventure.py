@@ -593,7 +593,7 @@ class EnemyGenerator:
         bullet4.y = target.y
         self.game.add_element(bullet4)
 
-        self.__game.after(5000, self.create_bullet, target)
+        self.__game.after(1000, self.create_bullet, target)
 
 
 class TurtleAdventureGame(Game):  # pylint: disable=too-many-ancestors
